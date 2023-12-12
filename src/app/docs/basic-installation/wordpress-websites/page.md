@@ -2,7 +2,7 @@
 title: Wordpress Websites
 nextjs:
   metadata:
-    title: Installation
+    title: Publisher Analytics Installation
     description: Step-by-step guide to install and configure the Publisher Analytics plugin.
 ---
 
@@ -49,13 +49,24 @@ This script initializes the Publisher Analytics plugin with your account details
 After installing the plugin, you need to map the elements of each article with NPAW tags. Here is a simplified example:
 
 ```html
-    <section class="story-wrapper" npaw-article>
-        <a class="article-link" npaw-article-url href="https://www.example.com/article.html">
-            <h3 class="article-title" npaw-article-title>Article Title</h3>
-            <p class="article-description" npaw-article-description>Article Description</p>
-            <img class="article-image" npaw-article-img src="image.jpg" alt="Article Image">
-        </a>
-    </section>
+<section class="story-wrapper" npaw-article>
+  <a
+    class="article-link"
+    npaw-article-url
+    href="https://www.example.com/article.html"
+  >
+    <h3 class="article-title" npaw-article-title>Article Title</h3>
+    <p class="article-description" npaw-article-description>
+      Article Description
+    </p>
+    <img
+      class="article-image"
+      npaw-article-img
+      src="image.jpg"
+      alt="Article Image"
+    />
+  </a>
+</section>
 ```
 
 In this example, the `npaw-article` tag is added to the section that contains the article. The `npaw-article-url`, `npaw-article-title`, `npaw-article-description`, and `npaw-article-img` tags are added to the corresponding elements in the article.

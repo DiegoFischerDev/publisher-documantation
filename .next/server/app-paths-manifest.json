@@ -1,3 +1,6 @@
 {
-  "/page": "app/page.js"
+  "/docs/basic-installation/introduction/page": "app/docs/basic-installation/introduction/page.js",
+  "/page": "app/page.js",
+  "/docs/ab-testing-installation/introduction/page": "app/docs/ab-testing-installation/introduction/page.js",
+  "/docs/basic-installation/standard-websites/page": "app/docs/basic-installation/standard-websites/page.js"
 }

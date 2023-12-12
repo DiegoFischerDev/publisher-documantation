@@ -12,7 +12,7 @@ You can customize your installation by selecting only the necessary components b
 
 {% quick-links %}
 
-{% quick-link title="Basic Installation" icon="installation" href="http://publisher-documantation.vercel.app/docs/basic-installation/introduction" description="Step-by-step guide for installing the npaw-plugin to start capturing user activities on your webpage." /%}
+{% quick-link title="Basic Installation" icon="installation" href="http://publisher-documantation.vercel.app/docs/basic-installation/introduction" description="Step-by-step guide for installing the Publisher Analytics plugin to start capturing user activities on your webpage." /%}
 
 {% quick-link title="A/B Testing Installation" icon="presets" href="http://publisher-documantation.vercel.app/docs/ab-testing-installation/introduction" description="Learn how to install the article-tags to start using our A/B testing feature." /%}
 

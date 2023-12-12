@@ -6,12 +6,17 @@ nextjs:
     description: Overview of the four distinct types of installation for the Publisher Analytics plugin.
 ---
 
-This guide provides an overview of the four distinct types of installation for the Publisher Analytics plugin. The installation process varies depending on the type of website you are working with. The four types of installations are:
+The essential setup of the Publisher Analytics plugin allows for monitoring user behavior, encompassing:
 
-1. Basic HTML Sites
-2. WordPress Sites
+1. Total number of visitors
+2. Overall clicks
+3. Scroll depth
+4. Time spent on sections
+5. New visitor count
+6. Navigation origins
+7. IP-based visitor location
 
-Each type of installation has its own unique requirements and steps, which are covered in more detail in their respective sections of this documentation.
+This guide provides an overview of distinct types of installation for the Publisher Analytics plugin. The installation process varies depending on the type of website you are working with. Each type of installation has its own unique requirements and steps, which are covered in more detail in their respective sections of this documentation.
 
 ---
 

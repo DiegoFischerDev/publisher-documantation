@@ -6,23 +6,19 @@ export const navigation = [
     ],
   },
   {
-    title: 'Users Activities Tracking',
+    title: 'Basic Installation',
     links: [
-      { title: 'Introduction', href: '/docs/users-activities-tracking/introduction' },
-      { title: 'Basic HTML sites', href: '/docs/users-activities-tracking/basic-html-sites' },
-      { title: 'Wordpress sites', href: '/docs/users-activities-tracking/wordpress-sites' },
-      { title: 'React sites', href: '/docs/users-activities-tracking/react-sites' },
-      { title: 'Angular sites', href: '/docs/users-activities-tracking/angular-sites' },
+      { title: 'Introduction', href: '/docs/basic-installation/introduction' },
+      { title: 'Standard websites', href: '/docs/basic-installation/standard-websites' },
+      { title: 'Wordpress websites', href: '/docs/basic-installation/wordpress-websites' },
     ],
   },
   {
-    title: 'A/B Testing',
+    title: 'A/B Testing Installation',
     links: [
-      { title: 'Introduction', href: '/docs/ab-testing/introduction' },
-      { title: 'Basic HTML sites', href: '/docs/ab-testing/basic-html-sites' },
-      { title: 'Wordpress sites', href: '/docs/ab-testing/wordpress-sites' },
-      { title: 'React sites', href: '/docs/ab-testing/react-sites' },
-      { title: 'Angular sites', href: '/docs/ab-testing/angular-sites' },
+      { title: 'Introduction', href: '/docs/ab-testing-installation/introduction' },
+      { title: 'Standard websites', href: '/docs/ab-testing-installation/standard-websites' },
+      { title: 'Wordpress websites', href: '/docs/ab-testing-installation/wordpress-websites' },
     ],
   },
 ]

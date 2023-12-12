@@ -19,13 +19,13 @@ Each type of installation has its own unique requirements and steps, which are c
 
 {% quick-links %}
 
-{% quick-link title="Basic HTML Sites" icon="installation" href="http://localhost:3000/docs/ab-testing/basic-html-sites" description="" /%}
+{% quick-link title="Basic HTML Sites" icon="installation" href="http://publisher-documantation.vercel.app/docs/ab-testing/basic-html-sites" description="" /%}
 
-{% quick-link title="WordPress Sites" icon="presets" href="http://localhost:3000/docs/ab-testing/wordpress-sites" description="" /%}
+{% quick-link title="WordPress Sites" icon="presets" href="http://publisher-documantation.vercel.app/docs/ab-testing/wordpress-sites" description="" /%}
 
-{% quick-link title="React Sites" icon="installation" href="http://localhost:3000/docs/ab-testing/react-sites" description="" /%}
+{% quick-link title="React Sites" icon="installation" href="http://publisher-documantation.vercel.app/docs/ab-testing/react-sites" description="" /%}
 
-{% quick-link title="Angular Sites" icon="presets" href="http://localhost:3000/docs/ab-testing/angular-sites" description="" /%}
+{% quick-link title="Angular Sites" icon="presets" href="http://publisher-documantation.vercel.app/docs/ab-testing/angular-sites" description="" /%}
 
 {% /quick-links %}
 

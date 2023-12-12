@@ -20,7 +20,7 @@ This guide provides an overview of distinct types of installation for the articl
 
 {% quick-links %}
 
-{% quick-link title="Basic HTML Sites" icon="installation" href="http://publisher-documantation.vercel.app/docs/ab-testing-installation/standard-websites" description="" /%}
+{% quick-link title="Standard Websites" icon="installation" href="http://publisher-documantation.vercel.app/docs/ab-testing-installation/standard-websites" description="" /%}
 
 {% quick-link title="WordPress Sites" icon="presets" href="http://publisher-documantation.vercel.app/docs/ab-testing-installation/wordpress-websites" description="" /%}
 

@@ -6,76 +6,74 @@ nextjs:
     description: Step-by-step guide to install and configure the Publisher Analytics plugin.
 ---
 
-For basic HTML sites, the installation involves adding a script to your website's HTML code. This script initializes the Publisher Analytics plugin and sets up the AB testing component.
+To enable the execution of A/B tests, it is necessary to identify the articles elements on the page by installing the article-tags.
 
 ---
 
-## Pre-requisites
+## Prerequisites
 
 Ensure that you have the necessary permissions to install plugins on your website. You should also have a basic understanding of HTML and JavaScript.
 
+Ensure that you have completed the [Basic Installation](publisher-documantation.vercel.app/docs/basic-installation/introduction) of the Publisher Analytics Plugin.
+
 ### Installation
 
-To install the Publisher Analytics plugin, you need to add the following script to your newspaper's home page and each article:
+The mandatory tags for initiating the monitoring of an article are: `npaw-article`, `npaw-article-url`, and `npaw-article-title`.
 
-```js
-    <!-- NPAW -->
-    <script src="../dist/abtesting.min.js"></script>
+The tags `npaw-article-image` and `npaw-article-description` are not mandatory, considering that not all articles have these elements.
 
-    <script>
-        npaw.Log.logLevel = npaw.Log.Level.VERBOSE;
-        window.plugin = new npaw.Plugin({
-            // Account and User
-            accountCode: 'abdev',
-            'user.name': 'abdevadminuser',
-            // Other content/app info
-            'app.name': 'ABDevelopment',
-            'app.releaseVersion': '0.0.1',
-            // AB Testing Config
-            'components.config': {
-                abtesting: {}
-            }
-        });
-
-        window.plugin.addComponent(new npaw.ABTesting());
-    </script>
-    <!-- /NPAW -->
-```
-
-This script initializes the Publisher Analytics plugin with your account details and sets up the AB testing component.
-
-### Mapping Article Elements
-
-After installing the plugin, you need to map the elements of each article with NPAW tags. Here is a simplified example:
+Here is an example showcasing an article with all its elements accurately identified using the appropriate tags:
 
 ```html
-<section class="story-wrapper" npaw-article>
-  <a
-    class="article-link"
-    npaw-article-url
-    href="https://www.example.com/article.html"
-  >
-    <h3 class="article-title" npaw-article-title>Article Title</h3>
-    <p class="article-description" npaw-article-description>
-      Article Description
-    </p>
-    <img
-      class="article-image"
-      npaw-article-img
-      src="image.jpg"
-      alt="Article Image"
-    />
+<html>
+<head>
+</head>
+<body>
+
+<div>
+
+<article npaw-article >
+  <img npaw-article-image src="https://host/image01" alt="alt text for image">
+  <a npaw-article-url href="https://host/article01">
+  <h2 npaw-article-title >Breakthrough Discovery: Scientists Unveil New Renewable Energy Source</h2>
   </a>
-</section>
+  <p npaw-article-description >Researchers have announced a groundbreaking discovery of
+    a novel renewable energy source, promising to revolutionize the way we power our
+    world and significantly reduce our reliance on fossil fuels.</p>
+</article>
+
+<article npaw-article >
+  <a npaw-article-url href="https://host/article02">
+  <h2 npaw-article-title >Exploring the Depths: Unraveling the Mysteries of the Ocean's Twilight Zone</h2>
+  </a>
+</article>
+
+</div>
+
+<!-- Publisher Analytics -->
+<script src="https://publisheranalytics.ai/publisher-sdk"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var accountCode = "99999";
+        var userId = "99999"
+        var sdk = new PublisherAnalyticsSDK(accountCode, userId);
+        sdk.setupExperiments();
+    });
+</script>
+<!-- /Publisher Analytics -->
+
+</body>
+</html>
 ```
 
-In this example, the `npaw-article` tag is added to the section that contains the article. The `npaw-article-url`, `npaw-article-title`, `npaw-article-description`, and `npaw-article-img` tags are added to the corresponding elements in the article.
+Incorporating these identification tags enables the manipulation of these elements, thereby facilitating automated A/B testing.
+
+{% callout title="Important Details!" %}
+1. This procedure for identifying articles is preferably done on the home screen.
+2. Don't forget to identify the elements for each article on the home screen that you intend to monitor.
+{% /callout %}
 
 ---
-
-## Troubleshooting
-
-If you encounter any issues during the installation or configuration process, please check the JavaScript console for any error messages. These messages can provide valuable information about what might be causing the issue.
 
 ### Support
 

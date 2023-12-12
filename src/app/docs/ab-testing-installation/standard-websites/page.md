@@ -14,7 +14,7 @@ To enable the execution of A/B tests, it is necessary to identify the articles e
 
 Ensure that you have the necessary permissions to install plugins on your website. You should also have a basic understanding of HTML and JavaScript.
 
-Ensure that you have completed the [Basic Installation](../../basic-installation/introduction/) of the Publisher Analytics Plugin.
+Ensure that you have completed the [Basic Installation](../../../docs/basic-installation/introduction/) of the Publisher Analytics Plugin.
 
 ### Installation
 

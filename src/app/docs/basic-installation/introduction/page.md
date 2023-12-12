@@ -17,9 +17,9 @@ Each type of installation has its own unique requirements and steps, which are c
 
 {% quick-links %}
 
-{% quick-link title="Basic HTML Sites" icon="installation" href="http://publisher-documantation.vercel.app/docs/basic-installation/basic-html-sites" description="" /%}
+{% quick-link title="Basic HTML Sites" icon="installation" href="http://publisher-documantation.vercel.app/docs/basic-installation/standard-websites" description="" /%}
 
-{% quick-link title="WordPress Sites" icon="presets" href="http://publisher-documantation.vercel.app/docs/basic-installation/wordpress-sites" description="" /%}
+{% quick-link title="WordPress Sites" icon="presets" href="http://publisher-documantation.vercel.app/docs/basic-installation/wordpress-websites" description="" /%}
 
 {% /quick-links %}
 

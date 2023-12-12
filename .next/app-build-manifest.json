@@ -11,25 +11,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/docs/basic-installation/introduction/page": [
+    "/docs/basic-installation/standard-websites/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/docs/basic-installation/introduction/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/docs/basic-installation/standard-websites/page.js"
     ],
     "/docs/ab-testing-installation/introduction/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/docs/ab-testing-installation/introduction/page.js"
     ],
-    "/docs/basic-installation/standard-websites/page": [
+    "/docs/basic-installation/introduction/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/docs/basic-installation/standard-websites/page.js"
+      "static/chunks/app/docs/basic-installation/introduction/page.js"
+    ],
+    "/docs/ab-testing-installation/standard-websites/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/docs/ab-testing-installation/standard-websites/page.js"
     ]
   }
 }

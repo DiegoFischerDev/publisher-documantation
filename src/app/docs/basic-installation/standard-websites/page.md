@@ -52,6 +52,8 @@ This script initializes the Publisher Analytics plugin with your account details
 3. Add this script not only to the home page but also to all article pages you wish to monitor.
 {% /callout %}
 
+All right! You've completed the basic installation. Now if you want to use the A/B Testing feature, the next step is to install the tags to identify the elements of the articles. See how to do this at [A/B Testing Installation](../../../docs/ab-testing-installation/standard-websites/).
+
 ---
 
 ### Support
